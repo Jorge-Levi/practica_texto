@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section1{
+    background-image: url(/img/hero.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0.1px;
+}
+.section1 div{
+    background-color: black;
+    width: 300px;
+    height: 100px;
+    margin: calc(50vh - 50px) auto;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+.section2,
+.section4{
+    padding: 80px;
+    text-align: center;
+    line-height: 30px;
+}
+.section2 h2,
+.section4 h2{
+    margin-bottom: 20px;
+}
+.section3,
+.section5{
+    text-align: center;
+    background-image: url(/img/fondo1.png);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+.section3 h2,
+.section5 h2{
+    width: 100%;
+    line-height: 50vh;
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+}
+.section5{
+    height: 100vh;
+    background-image: url(/img/fondo2.png);
+}
+.section5 h2{
+    line-height: 100vh;
+}
